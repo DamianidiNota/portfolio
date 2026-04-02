@@ -1,0 +1,62 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to imagesection.
+// -----------------------------------------------------------------------------
+
+
+.imageSection {
+    --imagesection: 1;
+    overflow: hidden;
+  
+    position: relative;
+    clip-path: polygon(0% 97%, 62% 100%, 100% 98%, 100% 0%, 0% 0%);
+    z-index:2;
+    &__img {
+        aspect-ratio: var(--imagesection);
+        line-height: 1;
+        font-size: 0;
+       
+    }
+
+    @include responsive('>small') {
+        --imagesection: 1920/900;
+    }
+
+    &--gray {
+        
+        
+        &:before {
+            content:"";
+            position:absolute;
+            top:50%;
+            height:50%;
+            background-color:#c0c7cd;
+            left:0;
+            width:100%;
+            .darkmode & {
+                background-color:#424345;
+           }
+           
+        }
+    }
+    img {
+        transition: transform calc(var(--duration) * 3) ease-out;
+        object-fit: cover;
+        position: absolute;
+        left: 0;
+        width: 100%;
+
+        @include responsive(">medium") {
+            bottom: -30%;
+            height: 160%;
+        }
+
+        @include responsive("<medium") {
+            bottom: -40%;
+            height: 140%;
+        }
+
+        .darkmode & {
+            filter: brightness(55%)
+        }
+    }
+}

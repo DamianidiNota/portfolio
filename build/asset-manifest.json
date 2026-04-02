@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "./static/css/main.a1a1b3c7.css",
+    "main.js": "./static/js/main.8aca941d.js",
+    "static/media/Roboto-Medium.woff": "./static/media/Roboto-Medium.e624b10d53c919bd7496.woff",
+    "static/media/Roboto-Black.woff": "./static/media/Roboto-Black.a3513eaf0ad708fff3ca.woff",
+    "static/media/Roboto-Bold.woff": "./static/media/Roboto-Bold.9fa4a8113c081e9b3138.woff",
+    "static/media/Roboto-Regular.woff": "./static/media/Roboto-Regular.0944be1093c62cedb919.woff",
+    "static/media/Roboto-Light.woff": "./static/media/Roboto-Light.c981701f695c76440cb3.woff",
+    "static/media/hollandandbarrettlogo.svg": "./static/media/hollandandbarrettlogo.5138f8a897637a9d72f3ca6b4e3bbaf1.svg",
+    "static/media/gregoryslogo.svg": "./static/media/gregoryslogo.3ea1c34eba64e72ffee041bce7c3c0e0.svg",
+    "static/media/SustainableGreece.svg": "./static/media/SustainableGreece.9457f42fdaba840ac2956c51a7df7f5a.svg",
+    "static/media/polikatikialogo.svg": "./static/media/polikatikialogo.b82015a21cf890ec19a20bf3f4f5af49.svg",
+    "static/media/aboutnet.svg": "./static/media/aboutnet.ea582d15046f28599c20f673adcfb4ff.svg",
+    "static/media/freelance.svg": "./static/media/freelance.20d248cfc23b0779d33d04321ec8b736.svg",
+    "static/media/ikealogo.svg": "./static/media/ikealogo.bdf69f607482d097f9e23b6f7bf7b48e.svg",
+    "static/media/nophoto.svg": "./static/media/nophoto.e893f320d43c813775177995b4ea7a7b.svg",
+    "static/media/atcomlogo.svg": "./static/media/atcomlogo.bb3762f8c0741af1ddc28d225668a32a.svg",
+    "index.html": "./index.html",
+    "main.a1a1b3c7.css.map": "./static/css/main.a1a1b3c7.css.map",
+    "main.8aca941d.js.map": "./static/js/main.8aca941d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1a1b3c7.css",
+    "static/js/main.8aca941d.js"
+  ]
+}

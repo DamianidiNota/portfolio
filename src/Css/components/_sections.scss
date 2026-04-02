@@ -1,0 +1,123 @@
+.section {
+    position: relative;
+    padding: var(--sectionspace) 0;
+
+    &--discover {
+        padding:0;
+       
+
+    }
+
+
+    &__header {
+        --h2space: 0;
+        display: flex;
+        align-items: flex-end;
+        gap: 16px;
+        justify-content: space-between;
+
+        @include responsive(">medium") {
+            margin-bottom: 50px;
+        }
+
+        @include responsive("<medium") {
+            flex-wrap: wrap;
+            margin-bottom: 24px;
+        }
+
+        &Right {
+            white-space: nowrap;
+        }
+    }
+
+    &--beige {
+        background:var(--beige);
+        --swiper-pagination-bullet-inactive-color: #d5d5bd;
+        --swiper-pagination-color: #8f8f7b;
+    }
+    &--brown {
+        background:var(--brown);
+    }
+    &--ivory {
+        background:var(--ivory);
+    }
+    &--ivory2 {
+        background:var(--ivory2);
+        --swiper-pagination-bullet-inactive-color: #d5d5d4;
+        --swiper-pagination-color: #a3a3a3;
+    }
+    &--experience {
+        position:relative;
+        overflow: hidden;
+        z-index: 1;
+
+       
+    }
+
+    .code {
+        position:absolute;           
+        top:0;
+        z-index: -1;
+        @include responsive(">medium") {
+            left:36%;
+        }
+
+        @include responsive("<medium") {
+            left:30%;
+        }
+        &:after {
+            content:"</>";
+            font-size:clamp(rem(400px), 98vw, rem(1300px));
+            color:var(--whitevsblack);           
+            line-height:0.8;
+            
+            font-weight:bold;
+            letter-spacing: -0.05em;
+            transform:rotate(10deg);
+
+          
+    
+        }
+       
+    }
+
+    &--earlier {
+        --swiper-pagination-bullet-inactive-color: #336dad;
+        --swiper-pagination-color: #224770;
+        position:relative;
+        overflow: hidden;
+        z-index: 1;
+        background: linear-gradient(0deg, rgba(58,127,204,1) 0%, rgba(255,255,255,1) 60%);
+        padding-bottom:0;
+
+       .darkmode & {
+            background: linear-gradient(0deg, rgba(29,65,105,1) 0%, rgba(7,18,29,1) 60%);
+       }
+
+        &:after {
+                content:"";
+                position:absolute;
+                background:var(--grbg);
+                height:var(--grheight);
+                width:150%;
+                filter:blur(var(--grblur));
+                bottom:calc(-1 * var(--grheight) / 2);
+                left:-25%;
+            }
+
+            & + section {
+               
+                &:after {
+                    content:"";
+                    position:absolute;
+                    background:var(--grbg);
+                    height:var(--grheight);
+                    width:150%;
+                    filter:blur(var(--grblur));
+                    top:calc(-1 * var(--grheight) / 2);
+                    left:-25%;
+                }
+            }
+        }
+       
+}

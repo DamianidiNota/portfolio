@@ -1,0 +1,64 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to portfolio.
+// -----------------------------------------------------------------------------
+
+.portfolio {
+    --pimgspace:16px;
+    
+    @include responsive("<large") {
+        width:calc(100% + var(--gridSpace));
+       padding-right:var(--gridSpace);
+       overflow: hidden;
+       .swiper {
+        overflow: visible;
+       }
+    }
+
+    &:not(:last-child){
+        margin-bottom:48px;
+    }
+   
+   
+    &__item {
+        overflow: hidden;
+        position:relative;
+
+        &--box {
+            --pimgspace:16px;
+            background: var(--whitevsblack);
+            border-radius:0 0 16px 16px;
+            padding:16px;
+            box-shadow: 0 8px 8px -4px rgba(0, 0, 0, 0.2);
+           
+        }
+    }
+
+  
+
+
+    &__img {
+      
+        aspect-ratio: 1;
+        margin-bottom:var(--pimgspace);
+    }
+
+
+    &__header {
+        --h2space: 0;
+        max-width: 970px;
+        margin-bottom: var(--headerspace);
+    }
+
+    &__title {
+       font-weight:bold;
+       a{
+        color:inherit;
+        &:before {
+            content:"";
+            position:absolute;
+            inset:0;
+        }
+       }
+    }
+
+}

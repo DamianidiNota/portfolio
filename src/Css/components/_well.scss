@@ -1,0 +1,23 @@
+.well-info {
+    &--sml {
+        max-width: 450px;
+        margin:0 auto;
+        padding:0 10px;
+    }
+    &__title {
+        font-size: 18px;
+        font-weight: bold;
+        margin:0 0 20px 0;
+        @include responsive('>small') {
+            font-size: 22px;
+        }
+    }
+    &__img {
+        &--remote {
+            margin:50px auto 0;
+            @include responsive('>small') {
+                margin:50px 0 0 auto;
+            }
+        }
+    }
+}

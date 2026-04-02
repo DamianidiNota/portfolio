@@ -1,0 +1,61 @@
+﻿// -----------------------------------------------------------------------------
+// This file contains all styles related to go to top button.
+// -----------------------------------------------------------------------------
+
+.goToTop {
+	--goToTopBottom: 16px;
+	--goToTopSize: 56px;
+	background-color: $black;
+	bottom: var(--goToTopBottom);
+	border-radius: 50%;
+	box-shadow: 0px 5px 15px rgba($black, 0.12);
+	color: $white;
+	font-size: rem(24px);
+	opacity: 0;
+	padding: 0;
+	position: fixed;
+	right: 16px;
+	text-align: center;
+	transition: $opacityTransition;
+	z-index: 2;
+	width: var(--goToTopSize);
+	height: var(--goToTopSize);
+
+	@include responsive(">full") {
+		margin-right: calc(50vw - 1920px/2);
+	}
+
+	@include responsive("<large") {
+		--goToTopSize: 48px;
+	}
+
+	.productDetail & {
+		margin-bottom: var(--productBarHeight);
+	}
+
+	.productListPage:not(.hideFiltersBtn) & {
+		margin-bottom: 56px;
+	}
+
+	.accountPage & {
+		@include responsive("<large") {
+			margin-bottom: var(--userNavHeight);
+		}
+	}
+
+	&--active {
+		/*! purgecss ignore current */
+		opacity: 1;
+	}
+
+	&:before {
+		transition: transform 300ms ease-out;
+	}
+
+	@include on-hover {
+		&:before {
+			transform: translateY(-6px);
+		}
+	}
+}
+

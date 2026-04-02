@@ -1,0 +1,41 @@
+﻿@charset 'UTF-8';
+
+// 1. Configuration and helpers
+@import
+  'abstracts/functions',
+  'abstracts/mixins',
+  'abstracts/variables';
+
+// 2. Vendors
+@import
+  'vendor/normalize',
+  'vendor/swiper-bundle';
+
+// 3. Base stuff
+@import
+  'base/base',
+  'base/keyframes',
+  'base/fonts',
+  'base/helpers',
+  'base/typography';
+
+// 4. Layout-related sections
+@import
+  'layout/footer',
+  'layout/grid',
+  'layout/header';
+
+// 5. Components
+
+@import
+  'components/brands',
+  'components/buttons',
+  'components/gotoTop',
+  'components/content',
+  'components/imagesection',
+  'components/discover',
+  'components/sections',
+  'components/list',
+  'components/portfolio',
+  'components/promo',
+  'components/slider';

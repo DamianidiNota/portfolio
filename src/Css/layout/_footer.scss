@@ -1,0 +1,108 @@
+.footer {
+    --h3space: 16px;
+    position: relative;
+    color:  var(--brown2);
+    margin-top: -24px;
+    background: var(--beige);
+    &__top {
+        padding-block: var(--sectionspace) ;
+        background:var(--greenlight2);
+    }
+    &__main {
+        padding-block: var(--sectionspace) ;
+
+        &Wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            @include responsive('<large') {
+             flex-direction: column;
+            }
+        }
+       
+    }
+    &__col {
+        margin: 0 0 32px;
+        line-height: 1;
+        text-align: center;
+        @include responsive('>large') {
+            text-align: left;
+            margin: 0 0 5px;
+        }
+    }
+
+    &__initials {
+        aspect-ratio: 1;
+        width:140px;
+        background:var(--greenlight2);
+        border-radius:50%;
+        --p: #{rem(60px)};
+        display: grid;
+        place-items:center;
+        color:var(--greendark2);
+        margin-bottom:0;
+    }
+
+    &__mail {
+        display: flex;
+        gap:8px;
+        align-items:Center;
+        position:relative;
+
+       &Icon {
+            width:32px;
+            height:32px;
+            border-radius:50%;
+            padding:4px;
+            background:var(--brown2);
+
+            svg {
+                fill:var(--beige)
+            }
+        }
+        &Link {
+            font-weight: bold;
+            font-size: rem(16px);
+            color:var(--brown2);
+            @extend %linkabs;
+
+            @include on-event(){
+                color:  var(--brown);
+            
+            }
+        }
+    }
+   
+}
+
+.social {
+    list-style: none;
+    margin:0 ;
+    padding: 0;
+    
+    &__li {
+        margin:0 0 16px 0;
+        color:var(--brown2);
+        font-size:rem(16px);
+    }
+    &__link {
+        display: flex;
+        gap:8px;
+        color:var(--brown2);
+        align-items:center;
+
+        @include on-event(){
+            color:  var(--brown);
+        }
+
+       &--linkedin {
+        &:before {
+            content:"";
+            background:var(--brown2);
+            width:32px;
+            height:32px;
+            clip-path:path("M16,0C7.164,0,0,7.163,0,16c0,8.836,7.164,16,16,16s16-7.164,16-16C32,7.163,24.836,0,16,0z M11.844,22.277H8.58v-9.82    h3.264V22.277z M10.212,11.116h-0.021c-1.096,0-1.804-0.755-1.804-1.697c0-0.963,0.73-1.696,1.846-1.696    c1.116,0,1.804,0.733,1.825,1.696C12.058,10.362,11.349,11.116,10.212,11.116z M23.613,22.277L23.613,22.277l-3.264,0v-5.254    c0-1.32-0.472-2.22-1.654-2.22c-0.901,0-1.438,0.607-1.674,1.194c-0.086,0.21-0.108,0.503-0.108,0.796v5.484H13.65    c0,0,0.043-8.898,0-9.82h3.264v1.391c0.433-0.669,1.209-1.622,2.942-1.622c2.147,0,3.757,1.404,3.757,4.42V22.277z");
+        }
+       }
+    }
+}

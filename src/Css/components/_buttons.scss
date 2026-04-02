@@ -1,0 +1,106 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background: transparent;
+	border: none;
+	margin: 0;
+
+	&:not(:disabled),
+	&:not(.button--disabled) {
+		cursor: pointer;
+	}
+}
+
+.button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--buttonbg);
+	border: none;
+	border-radius: 50px;
+	color: var(--buttoncolor);
+	cursor: pointer;
+
+	font: {
+		family: $font;
+		size: var(--buttonfont);
+		weight: normal;
+	}
+
+	line-height: 1.3;
+	padding: var(--buttonspace);
+	text-align: center;
+	text-decoration: none;
+	transition: background 200ms ease-out, border 200ms ease-out, color 200ms ease-out;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	min-height: var(--buttonminheight);
+    min-width: var(--buttonminwidth);
+
+
+
+	@include on-hover {
+		background-color: var(--buttonbghover);
+		color: var(--buttoncolorhover);
+	}
+
+
+	&.disabled {
+		opacity: 0.3;
+		pointer-events: none;
+	}
+
+	&--icon {
+		--buttonbg: transparent;
+		--buttonbghover: transparent;
+		--buttoncolor: #193D99;
+		--buttonspace: 8px;
+		--buttoncolorhover: #14C1FF;
+		--buttonminwidth:16px;
+	}
+	&--border {
+		--buttonbg: transparent;
+		--buttonbghover: #272727;
+		--buttoncolor: #595959;
+		--buttoncolorhover: #fff;
+		border: solid 1px #595959;
+	}
+
+	&--full {
+		width: 100%;
+	}
+
+	&--s {
+		font-size: rem(14px);
+		padding: 8px;
+		min-height: 40px;
+	}
+
+	&__icon {
+		font-size: rem(24px);
+		line-height: 1;
+	}
+}
+.button-darkmode {
+	path {
+		fill:var(--brown2);
+	}
+	svg {
+		width:32px;
+		height:32px;
+	}
+
+	&:after {
+		content:"";
+		width:24px;
+		height:24px;
+		display: block;
+		
+		background:var(--brown2);
+		clip-path:path("M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM12 20V4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20Z")
+	}
+}

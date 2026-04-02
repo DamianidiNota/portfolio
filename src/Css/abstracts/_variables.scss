@@ -1,0 +1,136 @@
+/// Container's maximum width
+/// @type Length
+/// 
+$font:   "Roboto", sans-serif !default;
+
+$baseFontSize: 16px;
+
+$max-width: 1560px;
+$max-width-md: 1366px;
+//number of grid columns
+$gridColumnCount: 12;
+
+
+
+//layout
+//transitions
+$colorTransition: color 250ms ease;
+$backColorTransition: background-color 250ms ease-out;
+$opacityTransition: opacity 250ms ease-in-out;
+$transformTransition: transform 250ms ease-out;
+$colornBackTransition: color 350ms ease, background-color 350ms ease;
+$transformOpacityTransition: transform 350ms ease-out,opacity 350ms ease-out;
+$opacityPositionTransition: opacity 350ms ease, transform 350ms ease;
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: ('small': 640px, 'medium': 768px, 'large':1024px, 'xlarge': 1280px, 'wrapperEdge': 1360px, 'xxlarge': 1600px) !default;
+
+// colors
+$white: #fff;
+$black: #000;
+$yellow: #F9AB00;
+$yellow2: #f9c900;
+$red:#FF1A00;
+$red2:#cd1717;
+$breakerbay:#57a79b;
+$aqua:#e5f4f3;
+$water:#dae9f7;
+$PeriwinkleGray: #cee0ed;
+$springwood:#f5f5e9;
+$border: #f1f1e0;
+
+:root {
+    // colors
+    --whitevsblack:#fff;
+    --blackvswhite:#000;
+    --black:#000;
+    --white:#fff;
+    --beige:#ededdf;    
+    --ivory:#fafaed;
+    --ivory2:#f6f6f4;
+    --ivory3:#f5f5ea;
+    --brown:#caad7e;
+    --brown2:#6d5b3e;
+    --green:#a7d489;
+    --green2:#7fb959;
+    --green3:#82aa67;
+    --greenlight:#c4dea4;
+    --greenlight2:#d5e7b8;
+    --greendark:#4c6e35;
+    --greendark2:#0e1708;
+    --treebasebackground:#b1cd90;
+    --treebackground: #9bc97d;
+    --yellow:#ffff73;
+    // typography
+    --h1: #{clamp(rem(22px), 4vw, rem(30px))};
+    --h2: #{clamp(rem(40px), 4vw, rem(58px))};
+    --h3: #{clamp(rem(22px), 4vw, rem(34px))};
+    --h4: #{clamp(rem(19px), 4vw, rem(22px))};
+    --h5: #{clamp(rem(18px), 4vw, rem(20px))};
+    --h6: #{clamp(rem(18px), 4vw, rem(20px))};
+    --p: #{rem(15px)};
+    --pspace: 8px;
+    --h2space: 8px;
+    --h1space: 0;
+    --h3space: 8px;
+    --h5space: 8px;
+    --h6space: 8px;
+    // buttons
+    --buttonminheight: 50px;
+    --buttonspace: 8px 24px;
+    --buttonfont: #{rem(14px)};
+    --buttonbg: #a7d489;
+    --buttonbghover: #7fb959;
+    --buttoncolorhover: #000;
+    --buttoncolor: #000;
+    --buttonminwidth: 140px;
+    // vars
+    --swipernavcolor: #272727;
+    --swipernavbghover: #272727;
+    --swipernavcolorhover: #fff;
+    --duration: .8s;
+    --polygon:polygon(0% 78%, 62% 100%, 100% 87%, 100% 0%, 0% 0%);
+    --polygon2: polygon(0% 15%, 12% 0%, 41% 13%, 74% 7%, 100% 18%, 100% 100%, 0% 100%);
+    --wrapper: 1600px;
+    --header: 70px;
+    --logo: 160px;
+    --sectionspace: 100px;
+    --cloud: 42px;
+    --cloudw: 100px;
+    --gridSpace: 24px;
+    --promodesc:20px;
+    --scroll:#ededdf;
+    --scrolltrack:#caad7e;
+    --grheight:100px;
+    --grblur:20px;
+    --grbg:rgba(58,127,204,1);
+    --swiper-pagination-bullet-inactive-color: #6d5b3e;
+	--swiper-pagination-color: #caad7e;
+    --cspace:40px;
+
+    @include responsive('>medium') {
+        --header: 110px;    
+        --h2space: 16px;
+        --buttonspace: 8px 40px;
+        --buttonminwidth: 220px;
+        --sectionspace: 120px;        
+        --gridSpace: 48px;
+    }
+    @include responsive('>large') {
+        --grheight:150px;
+        --promodesc:40px;
+        --grblur:30px;
+        --sectionspace: 160px;
+        --gridSpace: 60px;
+        --cspace:60px;
+        
+    }
+    @include responsive('>xlarge') {
+       
+        --cloud: 60px;
+        --cloudw: 180px;
+    }
+}
+

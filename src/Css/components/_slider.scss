@@ -1,0 +1,96 @@
+﻿// -----------------------------------------------------------------------------
+// This file contains all styles related to swiper slider.
+// -----------------------------------------------------------------------------
+
+.swiper {
+	--swiper-theme-color: var(--color-grey-Black);
+	--swiper-navigation-size: 60px;
+	--swiper-pagination-bullet-opacity: 1;
+	--swiper-pagination-bullet-inactive-opacity: 1;
+	
+	--swiper-pagination-bullet-horizontal-gap: 4px;
+	--swiper-pagination-bullet-width:16px;
+	--swiper-pagination-bullet-height:16px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+	bottom: 0;
+}
+
+
+.swiper-button-prev,
+.swiper-button-next {
+	width: var(--swiper-navigation-size);
+	background: var(--brown);
+	color: var(--swipernavcolor);
+	border-radius: 50%;
+	transition: $colornBackTransition;
+
+	&:after {
+		font-size: 24px;
+	}
+
+	@include on-hover {
+		background: var(--swipernavbghover);
+		color: var(--swipernavcolorhover);
+	}
+}
+
+.swiper-button-disabled {
+	pointer-events:none;
+}
+
+
+.swiperNav {
+	align-items: center;
+	display: flex;
+	justify-content: flex-end;
+	gap: 8px;
+
+	@include responsive(">medium") {
+		margin-top: 32px;
+	}
+
+	@include responsive("<medium") {
+		margin-top: 24px;
+	}
+
+	
+	.swiper-button-prev,
+	.swiper-button-next {
+		margin: 0;
+		position: relative;
+		top: 0;
+	}
+}
+
+.swiper-pagination {
+	position: relative;
+	width: auto;
+	margin-top:24px;
+
+	.discover & {
+		@include responsive(">medium") {
+			min-height:40px;
+			position:absolute;
+			
+		}
+	}
+}
+
+.swiper-scrollbar {
+	height:8px;
+	background-color: var(--swiper-pagination-bullet-inactive-color);
+	margin-top:16px;
+	transition: transform .3s ease;
+
+	&-drag {
+		height: 100%;
+		width: 100%;
+		position: relative;
+		background: var(--swiper-pagination-color);
+		left: 0;
+		top: 0;
+	}
+}
