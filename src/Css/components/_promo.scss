@@ -9,7 +9,9 @@
    text-align: center;
    overflow: hidden;
    animation: bright 10s ease forwards;
-   padding-top: var(--header);
+   
+    overflow: hidden;
+    width: 100%;
 
    @include responsive('>small') {
         --ground:20%;
@@ -20,22 +22,12 @@
     @include responsive('<small') {
         --skillw:30%;       
         padding-bottom:166px;
-        aspect-ratio: 0.8;
+         min-height: calc(100vh - var(--header));
     }
-    @include responsive('>xlarge') {
-        aspect-ratio:2;
-    } 
-    @include responsive('<xlarge') {
-        @include responsive('>large') {
-            aspect-ratio:1.4;
-        }
+ @include responsive('>small') {
+     min-height: 100vh;
+      padding-top: var(--header);
     }
-    @include responsive('<large') {
-        @include responsive('>small') {
-            aspect-ratio:1;
-        }
-    }
-
     &__header {
         padding-top: 30px;
     } 
@@ -475,7 +467,7 @@
 
 }
 .bird-two{
-    animation-duration: 0.9;
+    animation-duration: 0.9s;
     animation-delay: -0.75s;
 
 }
@@ -540,40 +532,14 @@
 
 
 .sun {
-    position:absolute;       
-    transform: rotate(-70deg);
-    z-index: -1;
-    animation:rotatesun 10s ease forwards;
     
-    @include responsive('<small') {
-        aspect-ratio: 1;
-        left: 8%;
-        width: 135%;
-        bottom: -10%;
-    }
-    @include responsive('>small') {
-        @include responsive('<large') {            
-            bottom:-5%;
-            aspect-ratio: 1;
-            width: 80%;   
-            left: 15%; 
-        }
-    }
-    @include responsive('>large') {
-        @include responsive('<xlarge') {
-            bottom:-5%;
-            aspect-ratio: 1;
-            left: 10%;
-            width: 60%;  
+    position:absolute;       
+    z-index: -1;
+    animation:rotatesun 10s linear forwards;
+    left: 6%;
+    top: 100%;
+       width: calc(var(--sun) * 3);
 
-        }
-    }
-    @include responsive('>xlarge') {
-        aspect-ratio: 1.2;
-        width: 60%;   
-        left: 15%;
-        bottom:-10%;
-    }
     &__inner {
         aspect-ratio: 1;
         border-radius:50%;
@@ -581,14 +547,10 @@
         display: block;
         transform:scale(0.5);
         animation:scalesun 10s ease forwards;
-        z-index: -1;     
+        z-index: -1;   
+           width: var(--sun);       
        
-        @include responsive('>small') {
-            width: 20%;
-        }
-        @include responsive('<small') {
-            width: 22%;
-        }
+       
         &:before {
             content:"";       
             position:absolute;

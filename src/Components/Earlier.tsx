@@ -7,58 +7,58 @@ export const earlys = [
 	  {
 		title:"Bedandbath",
 		href: "https://www.atcom.gr/productions/recent-productions/bedandbath/",
-		src: "/src/assets/portfolio/bedandbath.jpg",
-		webp:"/src/assets/portfolio/bedandbath.webp",
+		src: "assets/portfolio/bedandbath.jpg",
+		webp:"assets/portfolio/bedandbath.webp",
 		desc: "2016"
 	  },
 	  {
 		title:"Freemeteo",
 		href: "https://freemeteo.gr/mobile/",
-		src: "/src/assets/portfolio/freemeteo.jpg",
-		webp:"/src/assets/portfolio/freemeteo.webp",
+		src: "assets/portfolio/freemeteo.jpg",
+		webp:"assets/portfolio/freemeteo.webp",
 		desc: "mobile site"
 	  },
 	  {
 		title:"Novasports",
 		href: "https://www.atcom.gr/productions/recent-productions/novasports/",
-		src: "/src/assets/portfolio/novasports.jpg",
-		webp:"/src/assets/portfolio/novasports.webp",
+		src: "assets/portfolio/novasports.jpg",
+		webp:"assets/portfolio/novasports.webp",
 		desc: "sport news"
 	  },
 	  {
 		title:"Agronews",
 		href: "https://www.agronews.gr/",
-		src: "/src/assets/portfolio/agronews.jpg",
-		webp:"/src/assets/portfolio/agronews.webp",
+		src: "assets/portfolio/agronews.jpg",
+		webp:"assets/portfolio/agronews.webp",
 		desc: "news"
 	  },
 	 
 	  {
 		title:"Hsauz",
 		href: "https://www.atcom.gr/productions/recent-productions/hauz/",
-		src: "/src/assets/portfolio/hauz.jpg",
-		webp:"/src/assets/portfolio/hauz.webp",
+		src: "assets/portfolio/hauz.jpg",
+		webp:"assets/portfolio/hauz.webp",
 		desc: "eshop"
 	  },
 	  {
 		title:"Haralas",
 		href: "https://www.atcom.gr/productions/recent-productions/haralas/",
-		src: "/src/assets/portfolio/haralas.jpg",
-		webp:"/src/assets/portfolio/haralas.webp",
+		src: "assets/portfolio/haralas.jpg",
+		webp:"assets/portfolio/haralas.webp",
 		desc: "eshop"
 	  },	
 	  {
 		title:"Zaplous",
 		href: "https://www.atcom.gr/productions/recent-productions/zaplous/",
-		src: "/src/assets/portfolio/zaplous.jpg",
-		webp:"/src/assets/portfolio/zaplous.webp",
+		src: "assets/portfolio/zaplous.jpg",
+		webp:"assets/portfolio/zaplous.webp",
 		desc: "travel"
 	  },
 	  {
 		title:"Globalsat",
 		href: "https://www.atcom.gr/productions/recent-productions/globalsat/",
-		src: "/src/assets/portfolio/globalsat.jpg",
-		webp:"/src/assets/portfolio/globalsat.webp",
+		src: "assets/portfolio/globalsat.jpg",
+		webp:"assets/portfolio/globalsat.webp",
 		desc: "eshop"
 	  },
   ];
@@ -71,7 +71,7 @@ function Portfolio() {
     <>
 	
 
-  <section id="section2" className="section section--earlier">
+  <section id="section2" className="section section--earlier section--ivory2">
 			<div className="wrapper">
 				<div className="section__header">
 					<h2 className="section__title">EARLIER</h2>

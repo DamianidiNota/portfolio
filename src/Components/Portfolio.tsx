@@ -7,8 +7,8 @@ export const portfolios = [
 	{
 		title:"Sklavenitis",
 		href: "https://www.sklavenitis.gr/",
-		src: "/src/assets/portfolio/sklavenitis.jpg",
-		webp:"/src/assets/portfolio/sklavenitis.webp",
+		src: "assets/portfolio/sklavenitis.jpg",
+		webp:"assets/portfolio/sklavenitis.webp",
 		desc: "eshop"
 	  },
 	
@@ -16,22 +16,22 @@ export const portfolios = [
 	  {
 		title:"Illy",
 		href: "https://www.illy.gr/",
-		src: "/src/assets/portfolio/illy.jpg",
-		webp:"/src/assets/portfolio/illy.webp",
+		src: "assets/portfolio/illy.jpg",
+		webp:"assets/portfolio/illy.webp",
 		desc: "eshop"
 	  },
 	  {
 		title:"Gregorys",
 		href: "https://www.gregorys.gr/",
-		src: "/src/assets/portfolio/gregorys.jpg",
-		webp:"/src/assets/portfolio/gregorys.webp",
+		src: "assets/portfolio/gregorys.jpg",
+		webp:"assets/portfolio/gregorys.webp",
 		desc: "eshop"
 	  },
 	  {
 		title:"Vianex",
 		href: "https://www.vianex.gr/100years",
-		src: "/src/assets/portfolio/vianex.jpg",
-		webp:"/src/assets/portfolio/vianex.webp",
+		src: "assets/portfolio/vianex.jpg",
+		webp:"assets/portfolio/vianex.webp",
 		desc: "vianex 100 years"
 	  },
 	  
@@ -43,29 +43,29 @@ export const portfolios = [
 	  {
 		title:"Holland&barrett",
 		href: "https://www.hollandandbarrett.gr/",
-		src: "/src/assets/portfolio/holland.jpg",
-		webp:"/src/assets/portfolio/holland.webp",
+		src: "assets/portfolio/holland.jpg",
+		webp:"assets/portfolio/holland.webp",
 		desc: "eshop"
 	  },
 	  {
 		title:"Sustainabilitygreece",
 		href: "https://sustainability.visitgreece.gr/",
-		src: "/src/assets/portfolio/sustainable.jpg",
-		webp:"/src/assets/portfolio/sustainable.webp",
+		src: "assets/portfolio/sustainable.jpg",
+		webp:"assets/portfolio/sustainable.webp",
 		desc: "corporate"
 	  },
 	  {
 		title:"Gregorys Corporate",
 		href: "https://corporate.gregorys.gr/",
-		src: "/src/assets/portfolio/gregoryscorporate.jpg",
-		webp:"/src/assets/portfolio/gregoryscorporate.webp",
+		src: "assets/portfolio/gregoryscorporate.jpg",
+		webp:"assets/portfolio/gregoryscorporate.webp",
 		desc: "corporate"
 	  },
 	  {
 		title:"Polikatikia",
 		href: "https://polikatikia.gr/",
-		src: "/src/assets/portfolio/polikatikia.jpg",
-		webp:"/src/assets/portfolio/polikatikia.webp",
+		src: "assets/portfolio/polikatikia.jpg",
+		webp:"assets/portfolio/polikatikia.webp",
 		desc: "corporate"
 	  },
 	  
@@ -75,30 +75,30 @@ export const portfolios = [
 	{
 		title:"Protothema",
 		href: "https://www.protothema.gr/",
-		src: "/src/assets/portfolio/protothema.jpg",
-		webp:"/src/assets/portfolio/protothema.webp",
+		src: "assets/portfolio/protothema.jpg",
+		webp:"assets/portfolio/protothema.webp",
 		desc: "2017 - 2022 "
 	  },
 	  {
 		title:"Chiosrunning",
 		href: "https://www.chiosrunning.gr/",
-		src: "/src/assets/portfolio/chiosrunning.jpg",
-		webp:"/src/assets/portfolio/chiosrunning.webp",
+		src: "assets/portfolio/chiosrunning.jpg",
+		webp:"assets/portfolio/chiosrunning.webp",
 		desc: "corporate"
 	  }, 
 	 
 	  {
 		title:"Rainbowwatters",
 		href: "https://www.rainbowwaters.gr/",
-		src: "/src/assets/portfolio/rainbowwaters.jpg",
-		webp:"/src/assets/portfolio/rainbowwaters.webp",
+		src: "assets/portfolio/rainbowwaters.jpg",
+		webp:"assets/portfolio/rainbowwaters.webp",
 		desc: "eshop"
 	  },
 	  {
 		title:"Cityofathens",
 		href: "https://www.cityofathens.gr/",
-		src: "/src/assets/portfolio/cityofathens.jpg",
-		webp:"/src/assets/portfolio/cityofathens.webp",
+		src: "assets/portfolio/cityofathens.jpg",
+		webp:"assets/portfolio/cityofathens.webp",
 		desc: "corporate"
 	  },
   ];

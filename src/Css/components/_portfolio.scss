@@ -24,11 +24,8 @@
         position:relative;
 
         &--box {
-            --pimgspace:16px;
-            background: var(--whitevsblack);
-            border-radius:0 0 16px 16px;
-            padding:16px;
-            box-shadow: 0 8px 8px -4px rgba(0, 0, 0, 0.2);
+            --pimgspace:8px;
+            padding:8px;
            
         }
     }

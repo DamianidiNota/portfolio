@@ -46,17 +46,17 @@
         width: 100%;
 
         @include responsive(">medium") {
-            bottom: -30%;
-            height: 160%;
-        }
-
-        @include responsive("<medium") {
-            bottom: -40%;
+            bottom: -20%;
             height: 140%;
         }
 
+        @include responsive("<medium") {
+            bottom: -25%;
+            height: 130%;
+        }
+
         .darkmode & {
-            filter: brightness(55%)
+            filter: brightness(75%)
         }
     }
 }

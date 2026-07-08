@@ -2,64 +2,64 @@
 export const brands = [
 	{
 	  title:"ikea",
-	  src: "src/assets/projects/ikealogo.svg"
+	  src: "assets/projects/ikealogo.svg"
 	},
 	{
 		title:"illy",
-		src: "src/assets/brands/illy.svg"
+		src: "assets/brands/illy.svg"
 	  },
 	  {
 		title:"Gregorys",
-		src: "src/assets/projects/gregoryslogo.svg"
+		src: "assets/projects/gregoryslogo.svg"
 	  },
 	  {
 		title:"sklavenitis",
-		src: "src/assets/brands/sklavenitis.svg"
+		src: "assets/brands/sklavenitis.svg"
 	  },
 	  {
 		title:"Polikatikia",
-		src: "src/assets/projects/polikatikialogo.svg"
+		src: "assets/projects/polikatikialogo.svg"
 	  },
 	  {
 		title:"hollandandbarrett",
-		src: "src/assets/projects/hollandandbarrettlogo.svg"
+		src: "assets/projects/hollandandbarrettlogo.svg"
 	  },
 	 
 	  {
 		title:"protothema",
-		src: "src/assets/brands/protothema.svg"
+		src: "assets/brands/protothema.svg"
 	  },
 	  {
 		title:"SustainableGreece",
-		src: "src/assets/brands/SustainableGreece.svg"
+		src: "assets/brands/SustainableGreece.svg"
 	  },
 	  {
 		title:"opap",
-		src: "src/assets/brands/opap.svg"
+		src: "assets/brands/opap.svg"
 	  },
 	  {
 		title:"iqos",
-		src: "src/assets/brands/iqos.svg"
+		src: "assets/brands/iqos.svg"
 	  },
 	  {
 		title:"vianex",
-		src: "src/assets/brands/vianex.svg"
+		src: "assets/brands/vianex.svg"
 	  },
 	  {
 		title:"eurobank",
-		src: "src/assets/brands/eurobank.svg"
+		src: "assets/brands/eurobank.svg"
 	  },
 	  {
 		title:"Aegean",
-		src: "src/assets/brands/Aegean.svg"
+		src: "assets/brands/Aegean.svg"
 	  },
 	  {
 		title:"piop",
-		src: "src/assets/brands/piop.svg"
+		src: "assets/brands/piop.svg"
 	  },
 	  {
 		title:"bed&bath",
-		src: "src/assets/brands/bedbath.svg"
+		src: "assets/brands/bedbath.svg"
 	  },
   ];
 

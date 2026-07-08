@@ -199,10 +199,14 @@
  }
  @keyframes rotatesun {
     0% {
-        transform: rotate(-70deg);
+        left: 0;
+        top: 100%;
+         transform: rotate(0deg);
     }
     100% {
-        transform: rotate(0deg);
+        left: 0;
+        top: 10%;
+         transform: rotate(110deg);
     }
  }
  @keyframes scalesun {

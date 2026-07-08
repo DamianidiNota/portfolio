@@ -58,10 +58,10 @@ function Discover() {
 					<div className="discover__bg">         
 						<figure className="discover__img">
 							<picture>						
-								<source srcSet="/src/assets/projects/ikea1920x1570.webp" type="image/webp" media="(min-width: 641px)"/>	
-								<source srcSet="/src/assets/projects/ikea640x523.webp" type="image/webp" media="(max-width: 640px)"/>		
-								<source srcSet="/src/assets/projects/ikea640x523.jp2" type="image/jp2" media="(max-width: 640px)"/>		
-								<img fetchpriority="high" src="/src/assets/projects/ikea1920x1570.jpg" alt="Alt text" />
+								<source srcSet="assets/projects/ikea1920x1570.webp" type="image/webp" media="(min-width: 641px)"/>	
+								<source srcSet="assets/projects/ikea640x523.webp" type="image/webp" media="(max-width: 640px)"/>		
+								<source srcSet="assets/projects/ikea640x523.jp2" type="image/jp2" media="(max-width: 640px)"/>		
+								<img fetchpriority="high" src="assets/projects/ikea1920x1570.jpg" alt="Alt text" />
 							</picture>
 						</figure>
 						
@@ -88,9 +88,9 @@ function Discover() {
 					<div className="discover__bg">                          
 						<figure className="discover__img">
 							<picture>						
-								<source srcSet="/src/assets/projects/gregorys1920x1570.webp" type="image/webp" media="(min-width: 641px)"/>	
-								<source srcSet="/src/assets/projects/gregorys640x523.webp" type="image/webp" media="(max-width: 640px)"/>				
-								<img loading="lazy" src="/src/assets/projects/gregorys1920x1570.jpg" alt="Alt text" />
+								<source srcSet="assets/projects/gregorys1920x1570.webp" type="image/webp" media="(min-width: 641px)"/>	
+								<source srcSet="assets/projects/gregorys640x523.webp" type="image/webp" media="(max-width: 640px)"/>				
+								<img loading="lazy" src="assets/projects/gregorys1920x1570.jpg" alt="Alt text" />
 							</picture>
 						</figure>
 						
@@ -120,9 +120,9 @@ function Discover() {
 					<div className="discover__bg">                          
 						<figure className="discover__img">
 							<picture>						
-								<source srcSet="/src/assets/projects/polikatikia1920x1570.webp" type="image/webp" media="(min-width: 641px)"/>	
-								<source srcSet="/src/assets/projects/polikatikia640x523.webp" type="image/webp" media="(max-width: 640px)"/>			
-								<img loading="lazy" src="/src/assets/projects/polikatikia1920x1570.jpg" alt="Alt text" />
+								<source srcSet="assets/projects/polikatikia1920x1570.webp" type="image/webp" media="(min-width: 641px)"/>	
+								<source srcSet="assets/projects/polikatikia640x523.webp" type="image/webp" media="(max-width: 640px)"/>			
+								<img loading="lazy" src="assets/projects/polikatikia1920x1570.jpg" alt="Alt text" />
 							</picture>
 						</figure>
 						
@@ -152,9 +152,9 @@ function Discover() {
 					<div className="discover__bg">                          
 						<figure className="discover__img">
 							<picture>						
-								<source srcSet="/src/assets/projects/holland1920x1570.webp" type="image/webp" media="(min-width: 641px)"/>	
-								<source srcSet="/src/assets/projects/holland640x523.webp" type="image/webp" media="(max-width: 640px)"/>			
-								<img loading="lazy" src="/src/assets/projects/holland1920x1570.jpg" alt="Alt text" />
+								<source srcSet="assets/projects/holland1920x1570.webp" type="image/webp" media="(min-width: 641px)"/>	
+								<source srcSet="assets/projects/holland640x523.webp" type="image/webp" media="(max-width: 640px)"/>			
+								<img loading="lazy" src="assets/projects/holland1920x1570.jpg" alt="Alt text" />
 							</picture>
 						</figure>
 							
@@ -181,9 +181,9 @@ function Discover() {
 					<div className="discover__bg">                          
 						<figure className="discover__img">
 							<picture>						
-								<source srcSet="/src/assets/projects/sustainability1920x1570.webp" type="image/webp" media="(min-width: 641px)"/>	
-								<source srcSet="/src/assets/projects/sustainability640x523.webp" type="image/webp" media="(max-width: 640px)"/>			
-								<img loading="lazy" src="/src/assets/projects/sustainability.jpg" alt="Alt text" />
+								<source srcSet="assets/projects/sustainability1920x1570.webp" type="image/webp" media="(min-width: 641px)"/>	
+								<source srcSet="assets/projects/sustainability640x523.webp" type="image/webp" media="(max-width: 640px)"/>			
+								<img loading="lazy" src="assets/projects/sustainability.jpg" alt="Alt text" />
 							</picture>
 						</figure>
 						

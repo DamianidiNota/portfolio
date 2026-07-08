@@ -22,19 +22,19 @@ function ImgFooter() {
 			}
 		});
 		discovertl
-			.fromTo(".imageSection__img img", { yPercent: -15 }, { yPercent: 15 }) 
+			.fromTo(".imageSection__img img", { yPercent: -20 }, { yPercent: 20 }) 
 		
 	}, []);
   return (
     <>
 	
 
-	<section className="imageSection imageSection--gray" >   
+	<section className="imageSection " >   
       <figure className="imageSection__img">
 			<picture>						
-				<source srcSet="/src/assets/santorini.webp" type="image/webp" media="(min-width: 641px)"/>	
-				<source srcSet="/src/assets/santorini-sml.webp" type="image/webp" media="(max-width: 640px)"/>		
-				<img loading="lazy" src="/src/assets/santorini.jpg" alt="Alt text" />
+				<source srcSet="assets/flowers.webp" type="image/webp" media="(min-width: 641px)"/>	
+				<source srcSet="assets/flowers-sml.webp" type="image/webp" media="(max-width: 640px)"/>		
+				<img loading="lazy" src="assets/flowers.jpg" alt="Alt text" />
 			</picture>
 		</figure>
     </section>

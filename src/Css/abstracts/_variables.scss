@@ -51,6 +51,7 @@ $border: #f1f1e0;
     --ivory:#fafaed;
     --ivory2:#f6f6f4;
     --ivory3:#f5f5ea;
+    --ivory4:#e4e4d5;
     --brown:#caad7e;
     --brown2:#6d5b3e;
     --green:#a7d489;
@@ -109,7 +110,11 @@ $border: #f1f1e0;
     --swiper-pagination-bullet-inactive-color: #6d5b3e;
 	--swiper-pagination-color: #caad7e;
     --cspace:40px;
+     --sun: 20vw;
 
+     @include responsive('>small') {
+           --sun: 18vw;
+        }
     @include responsive('>medium') {
         --header: 110px;    
         --h2space: 16px;
@@ -119,6 +124,7 @@ $border: #f1f1e0;
         --gridSpace: 48px;
     }
     @include responsive('>large') {
+         --sun: 10vw;
         --grheight:150px;
         --promodesc:40px;
         --grblur:30px;

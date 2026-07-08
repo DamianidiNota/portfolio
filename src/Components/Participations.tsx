@@ -6,36 +6,36 @@ export const parts = [
 	{
 	  title:"Aegean",
 	  href: "https://el.aegeanair.com/",
-	  src: "/src/assets/portfolio/aegean.jpg",
-	  webp:"/src/assets/portfolio/aegean.webp",
+	  src: "assets/portfolio/aegean.jpg",
+	  webp:"assets/portfolio/aegean.webp",
 	  desc: "Rebranding 2021 and redesign 2017"
 	},
 	{
 		title:"Lego Greece",
 		href: "https://www.lego.storegreece.gr/",
-		src: "/src/assets/portfolio/lego.jpg",
-		webp:"/src/assets/portfolio/lego.webp",
+		src: "assets/portfolio/lego.jpg",
+		webp:"assets/portfolio/lego.webp",
 		desc: "bug fixing"
 	  },
 	{
 		title:"Moustakas toys",
 		href: "https://www.moustakastoys.gr/",
-		src: "/src/assets/portfolio/moustakas.jpg",
-		webp:"/src/assets/portfolio/moustakas.webp",
+		src: "assets/portfolio/moustakas.jpg",
+		webp:"assets/portfolio/moustakas.webp",
 		desc: "bug fixing"
 	  },
 	  {
 		title:"Pamestoixima",
 		href: "https://blog.pamestoixima.gr/",
-		src: "/src/assets/portfolio/pamestoixima.jpg",
-		webp:"/src/assets/portfolio/pamestoixima.webp",
+		src: "assets/portfolio/pamestoixima.jpg",
+		webp:"assets/portfolio/pamestoixima.webp",
 		desc: "streaming pages and bug fixing"
 	  },
 	  {
 		title:"Allsmart",
 		href: "https://www.allsmart.gr/",
-		src: "/src/assets/portfolio/allsmart.jpg",
-		webp:"/src/assets/portfolio/allsmart.webp",
+		src: "assets/portfolio/allsmart.jpg",
+		webp:"assets/portfolio/allsmart.webp",
 		desc: "pages and bug fixing"
 	  },
 	  
@@ -48,36 +48,36 @@ export const parts = [
 	  {
 		title:"Startv",
 		href: "https://www.star.gr/tv",
-		src: "/src/assets/portfolio/star.jpg",
-		webp:"/src/assets/portfolio/star.webp",
+		src: "assets/portfolio/star.jpg",
+		webp:"assets/portfolio/star.webp",
 		desc: "website till 2022 and bugfixing"
 	  },
 	  {
 		title:"Eurobank",
 		href: "https://ebanking.eurobank.gr/#/login",
-		src: "/src/assets/portfolio/eurobank.jpg",
-		webp:"/src/assets/portfolio/eurobank.webp",
+		src: "assets/portfolio/eurobank.jpg",
+		webp:"assets/portfolio/eurobank.webp",
 		desc: "Pages"
 	  },
 	  {
 		title:"Goodys",
 		href: "https://www.goodys.com/",
-		src: "/src/assets/portfolio/goodys.jpg",
-		webp:"/src/assets/portfolio/goodys.webp",
+		src: "assets/portfolio/goodys.jpg",
+		webp:"assets/portfolio/goodys.webp",
 		desc: "bugfixing and new checkout flow"
 	  },
 	  {
 		title:"Everest",
 		href: "https://www.everest.gr/",
-		src: "/src/assets/portfolio/everest.jpg",
-		webp:"/src/assets/portfolio/everest.webp",
+		src: "assets/portfolio/everest.jpg",
+		webp:"assets/portfolio/everest.webp",
 		desc: "bugfixing"
 	  },
 	  {
 		title:"Attica",
 		href: "https://www.atticadps.gr/",
-		src: "/src/assets/portfolio/attica.jpg",
-		webp:"/src/assets/portfolio/attica.webp",
+		src: "assets/portfolio/attica.jpg",
+		webp:"assets/portfolio/attica.webp",
 		desc: "bugfixing"
 	  },
 	 
@@ -89,7 +89,7 @@ function Portfolio() {
     <>
 	
 
-  <section id="section2" className="section section--ivory2">
+  <section id="section2" className="section section--ivory">
 			<div className="wrapper">
 				<div className="section__header">
 					<h2 className="section__title">PARTICIPATIONS</h2>
