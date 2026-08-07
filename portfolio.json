@@ -1,0 +1,194 @@
+[
+	{
+		"id": 1, 
+        "title":"Laghios Dentistry",
+		"href": "https://www.laghios.com/",
+		"src": "assets/portfolio/laghios.jpg",
+		"webp":"assets/portfolio/laghios.webp",
+		"desc": "corporate"
+	  },
+	  {
+		"id": 2, 
+        "title":"Sklavenitis",
+		"href": "https://www.sklavenitis.gr/",
+		"src": "assets/portfolio/sklavenitis.jpg",
+		"webp":"assets/portfolio/sklavenitis.webp",
+		"desc": "eshop"
+	  },
+	
+
+	  {
+		"id": 3, 
+        "title":"Illy",
+		"href": "https://www.illy.gr/",
+		"src": "assets/portfolio/illy.jpg",
+		"webp":"assets/portfolio/illy.webp",
+		"desc": "eshop"
+	  },
+	  {
+		"id": 4, 
+        "title":"Gregorys",
+		"href": "https://www.gregorys.gr/",
+		"src": "assets/portfolio/gregorys.jpg",
+		"webp":"assets/portfolio/gregorys.webp",
+		"desc": "eshop"
+	  },
+	 
+	
+	  {
+		"id": 5, 
+        "title":"Holland&barrett",
+		"href": "https://www.hollandandbarrett.gr/",
+		"src": "assets/portfolio/holland.jpg",
+		"webp":"assets/portfolio/holland.webp",
+		"desc": "eshop"
+	  },
+	  {
+		"id": 6, 
+        "title":"Sustainabilitygreece",
+		"href": "https://sustainability.visitgreece.gr/",
+		"src": "assets/portfolio/sustainable.jpg",
+		"webp":"assets/portfolio/sustainable.webp",
+		"desc": "corporate"
+	  },
+	  {
+		"id": 7, 
+        "title":"Gregorys Corporate",
+		"href": "https://corporate.gregorys.gr/",
+		"src": "assets/portfolio/gregoryscorporate.jpg",
+		"webp":"assets/portfolio/gregoryscorporate.webp",
+		"desc": "corporate"
+	  },
+	  {
+		"id": 8, 
+        "title":"Polikatikia",
+		"href": "https://polikatikia.gr/",
+		"src": "assets/portfolio/polikatikia.jpg",
+		"webp":"assets/portfolio/polikatikia.webp",
+		"desc": "corporate"
+	  },
+	   {
+		"id": 9, 
+        "title":"Vianex",
+		"href": "https://www.vianex.gr/100years",
+		"src": "assets/portfolio/vianex.jpg",
+		"webp":"assets/portfolio/vianex.webp",
+		"desc": "corporate"
+	  },
+	   {
+		"id": 10, 
+        "title":"Allsmart",
+		"href": "https://www.allsmart.gr/",
+		"src": "assets/portfolio/allsmart.jpg",
+		"webp":"assets/portfolio/allsmart.webp",
+		"desc": "eshop"
+	  },
+	  
+	{
+		"id": 11, 
+        "title":"Protothema",
+		"href": "https://www.protothema.gr/",
+		"src": "assets/portfolio/protothema.jpg",
+		"webp":"assets/portfolio/protothema.webp",
+		"desc": "portal"
+	  },
+	  {
+		"id": 12, 
+        "title":"Chiosrunning",
+		"href": "https://www.chiosrunning.gr/",
+		"src": "assets/portfolio/chiosrunning.jpg",
+		"webp":"assets/portfolio/chiosrunning.webp",
+		"desc": "corporate"
+	  }, 
+	 
+	  {
+		"id": 13, 
+        "title":"Rainbowwatters",
+		"href": "https://www.rainbowwaters.gr/",
+		"src": "assets/portfolio/rainbowwaters.jpg",
+		"webp":"assets/portfolio/rainbowwaters.webp",
+		"desc": "eshop"
+	  },
+	  {
+		"id": 14, 
+        "title":"Cityofathens",
+		"href": "https://www.cityofathens.gr/",
+		"src": "assets/portfolio/cityofathens.jpg",
+		"webp":"assets/portfolio/cityofathens.webp",
+		"desc": "corporate"
+	  },
+	  {
+		"id": 15, 
+        "title":"Lego Greece",
+		"href": "https://www.lego.storegreece.gr/",
+		"src": "assets/portfolio/lego.jpg",
+		"webp":"assets/portfolio/lego.webp",
+		"desc": "eshop"
+	  },
+	  {
+		"id": 16, 
+        "title":"Moustakas toys",
+		"href": "https://www.moustakastoys.gr/",
+		"src": "assets/portfolio/moustakas.jpg",
+		"webp":"assets/portfolio/moustakas.webp",
+		"desc": "eshop"
+	  },
+	    {
+		"id": 17, 
+        "title":"Pamestoixima",
+		"href": "https://blog.pamestoixima.gr/",
+		"src": "assets/portfolio/pamestoixima.jpg",
+		"webp":"assets/portfolio/pamestoixima.webp",
+		"desc": "portal"
+	  },
+	   {
+		"id": 18, 
+        "title":"Startv",
+		"href": "https://www.star.gr/tv",
+		"src": "assets/portfolio/star.jpg",
+		"webp":"assets/portfolio/star.webp",
+		"desc": "tv channel"
+	  },
+	  {
+	  "id": 19, 
+      "title":"Aegean",
+	  "href": "https://el.aegeanair.com/",
+	  "src": "assets/portfolio/aegean.jpg",
+	  "webp":"assets/portfolio/aegean.webp",
+	  "desc": "pages & maintenance"
+	},
+	 
+	 
+	  {
+		"id": 20, 
+        "title":"Eurobank",
+		"href": "https://ebanking.eurobank.gr/#/login",
+		"src": "assets/portfolio/eurobank.jpg",
+		"webp":"assets/portfolio/eurobank.webp",
+		"desc": "pages & maintenance"
+	  },
+	  {
+		"id": 21, 
+        "title":"Goodys",
+		"href": "https://www.goodys.com/",
+		"src": "assets/portfolio/goodys.jpg",
+		"webp":"assets/portfolio/goodys.webp",
+		"desc": "pages & maintenance"
+	  },
+	  {
+		"id": 22, 
+        "title":"Everest",
+		"href": "https://www.everest.gr/",
+		"src": "assets/portfolio/everest.jpg",
+		"webp":"assets/portfolio/everest.webp",
+		"desc": "maintenance"
+	  },
+	  {
+		"id": 23, 
+        "title":"Attica",
+		"href": "https://www.atticadps.gr/",
+		"src": "assets/portfolio/attica.jpg",
+		"webp":"assets/portfolio/attica.webp",
+		"desc": "maintenance"
+	  }
+  ]
