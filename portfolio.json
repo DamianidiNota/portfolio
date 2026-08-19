@@ -191,4 +191,13 @@
 		"webp":"assets/portfolio/attica.webp",
 		"desc": "maintenance"
 	  }
+	  ,
+	  {
+		"id": 24, 
+        "title":"designsNDM",
+		"href": "https://damianidinota.github.io/designsNDM/",
+		"src": "assets/portfolio/designsndm.jpg",
+		"webp":"assets/portfolio/designsndm.webp",
+		"desc": "react website, planners"
+	  }
   ]
