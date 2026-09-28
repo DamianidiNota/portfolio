@@ -152,7 +152,7 @@
 	  {
 	  "id": 19, 
       "title":"Aegean",
-	  "href": "https://el.aegeanair.com/",
+	  "href": "https://en.aegeanair.com/",
 	  "src": "assets/portfolio/aegean.jpg",
 	  "webp":"assets/portfolio/aegean.webp",
 	  "desc": "pages & maintenance"
@@ -191,9 +191,18 @@
 		"webp":"assets/portfolio/attica.webp",
 		"desc": "maintenance"
 	  }
-	  ,
+	  , 
 	  {
 		"id": 24, 
+        "title":"Iqos",
+		"href": "https://gr.iqos.com/",
+		"src": "assets/portfolio/iqos.jpg",
+		"webp":"assets/portfolio/iqos.webp",
+		"desc": "eshop"
+	  }
+	  ,
+	  {
+		"id": 25, 
         "title":"designsNDM",
 		"href": "https://damianidinota.github.io/designsNDM/",
 		"src": "assets/portfolio/designsndm.jpg",
